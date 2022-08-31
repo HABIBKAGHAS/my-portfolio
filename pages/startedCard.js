@@ -3,7 +3,7 @@ export default function StartedCard() {
   return (
     <div className="card-started" id="home-card">
       <div className="profile">
-        <div className="slide bg-[url('/Background.jpg')]"></div>
+        <div className="slide bg-[url('/back.jpeg')]"></div>
         <div className="image">
           <Image src="/Habib.jpg" width={150} height={150} alt="Ryan Adlard" />
         </div>
@@ -14,6 +14,7 @@ export default function StartedCard() {
             <p>Full Stack Developer</p>
             <p>Blockchain</p>
             <p>NodeJS</p>
+            <p>AWS</p>
           </div>
         </div>
 
@@ -30,7 +31,7 @@ export default function StartedCard() {
         </div>
 
         <div className="lnks">
-          <a href="#" className="lnk">
+          <a href="/Habib Kaghas Resume.pdf" className="lnk">
             <span className="text">Download CV</span>
           </a>
           <a href="#" className="lnk discover">

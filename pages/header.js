@@ -6,7 +6,7 @@ export default function Header() {
         <div className="image">
           <a href="#">
             <Image
-              src="/Background.jpg"
+              src="/back.jpeg"
               width={150}
               height={150}
               alt="Ryan Adlard"
