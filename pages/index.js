@@ -8,6 +8,7 @@ import ResumeCard from "./resumeCard";
 import WorksCard from "./worksCard";
 import ContactCard from "./contactCard";
 import SideBar from "./sidebar";
+
 export default function Home() {
   return (
     <div>

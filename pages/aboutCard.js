@@ -9,10 +9,15 @@ export default function AboutCard() {
             <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
               <div className="text-box">
                 <p>
-                  I am Ryan Adlard, web designer from USA, California. I have
-                  rich experience in web site design and building and
-                  customization, also I am good at wordpress. I love to talk
-                  with you about our unique.
+                  Experienced Project Lead Developer with a demonstrated history
+                  of working in the non-profit organization management industry.
+                  Skilled in English as a Second Language (ESL), Computer
+                  Science, NodeJS, ReactJS, Mobile Applications, and Java. Have
+                  great knowledge in Amazon Web Services (AWS), interestend in
+                  Web 3.0, BlockChain, Non-Fungible Tokens (NFTs), and crypto.
+                  Strong information technology professional with a Bachelor`s
+                  degree focused in Artificial Intelligence from Information
+                  Technology University (ITI).
                 </p>
               </div>
             </div>
@@ -20,16 +25,24 @@ export default function AboutCard() {
               <div className="info-list">
                 <ul>
                   <li>
-                    <strong>Age . . . . .</strong> 24
+                    <p>
+                      <strong>Age . . . . .</strong> 27
+                    </p>
                   </li>
                   <li>
-                    <strong>Residence . . . . .</strong> USA
+                    <p>
+                      <strong>Residence . . . . .</strong> Erbil, Iraq
+                    </p>
                   </li>
                   <li>
-                    <strong>Freelance . . . . .</strong> Available
+                    <p>
+                      <strong>Freelance . . . . .</strong> Available
+                    </p>
                   </li>
                   <li>
-                    <strong>Address . . . . .</strong> California, USA
+                    <p>
+                      <strong>Address . . . . .</strong> 40th Street
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -63,16 +76,17 @@ export default function AboutCard() {
             <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
               <div className="service-item">
                 <div className="icon">
-                  <span className="fa fa-music"></span>
+                  <span className="fa fa-cloud"></span>
                 </div>
                 <div className="name">
-                  <span>Music Writing </span>
+                  <span>DevOps</span>
                 </div>
                 <div className="desc">
                   <div>
                     <p>
-                      Music copying, writing, creating, transcription, arranging
-                      and composition services.
+                      Deploying websites to EC2 AWS, managing files using S3
+                      Bucket, ServerLess Applications using Lambda, creating
+                      CI/CD using github actions and AWS.
                     </p>
                   </div>
                 </div>
@@ -81,16 +95,16 @@ export default function AboutCard() {
             <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
               <div className="service-item">
                 <div className="icon">
-                  <span className="fa fa-buysellads"></span>
+                  <span className="fa fa-database"></span>
                 </div>
                 <div className="name">
-                  <span>Advetising </span>
+                  <span>Database Management </span>
                 </div>
                 <div className="desc">
                   <div>
                     <p>
-                      Advertising services include television, radio, print,
-                      mail, and web apps.
+                      ERD Desgin and analyze requirements, SQL Server, MySql and
+                      Mongodb.
                     </p>
                   </div>
                 </div>
@@ -99,16 +113,16 @@ export default function AboutCard() {
             <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
               <div className="service-item">
                 <div className="icon">
-                  <span className="fa fa-gamepad"></span>
+                  <span className="fa fa-laptop"></span>
                 </div>
                 <div className="name">
-                  <span>Game Development </span>
+                  <span>Web 3.0 </span>
                 </div>
                 <div className="desc">
                   <div>
                     <p>
-                      Developing memorable and unique mobile android, ios and
-                      video games.
+                      Write Smart Contracts with Solidity, Openzeppelin and
+                      Hardhat
                     </p>
                   </div>
                 </div>
@@ -118,7 +132,7 @@ export default function AboutCard() {
           <div className="clear"></div>
         </div>
 
-        <div className="content pricing">
+        {/* <div className="content pricing">
           <div className="title">Pricing</div>
 
           <div className="row pricing-items">
@@ -184,9 +198,9 @@ export default function AboutCard() {
 
             <div className="clear"></div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="content fuct">
+        {/* <div className="content fuct">
           <div className="title">Fun Fact</div>
 
           <div className="row fuct-items">
@@ -228,58 +242,7 @@ export default function AboutCard() {
 
             <div className="clear"></div>
           </div>
-        </div>
-
-        <div className="content clients">
-          <div className="title">Clients</div>
-
-          <div className="row client-items">
-            <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
-              <div className="client-item">
-                <div className="image">
-                  <a href="https://www.google.com">
-                    {/* <img src="images/clients/client_1.png" alt="" /> */}
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
-              <div className="client-item">
-                <div className="image">
-                  <a href="https://www.google.com">
-                    {/* <img src="images/clients/client_2.png" alt="" /> */}
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
-              <div className="client-item">
-                <div className="image">
-                  <a href="https://www.google.com">
-                    {/* <img src="images/clients/client_3.png" alt="" /> */}
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
-              <div className="client-item">
-                <div className="image">
-                  <a href="https://www.google.com">
-                    {/* <img
-                            src="/template/images/clients/client_4.png"
-                            alt=""
-                          /> */}
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="clear"></div>
-          </div>
-        </div>
+        </div> */}
 
         <div className="content quote">
           <div className="title">
@@ -291,16 +254,14 @@ export default function AboutCard() {
               <div className="revs-item">
                 <div className="text">
                   <div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    People who are crazy enough to think they can change the
+                    world are the ones who do..People who are crazy enough to
+                    think they can change the world are the ones who do..
                   </div>
                 </div>
                 <div className="user">
-                  <div className="img">
-                    {/* <img src="images/profile.png" alt="Ryan Adlard" /> */}
-                  </div>
                   <div className="info">
-                    <div className="name">Ryan Adlard</div>
+                    {/* <div className="name"></div> */}
                     <div className="company">Web Designer</div>
                   </div>
                   <div className="clear"></div>

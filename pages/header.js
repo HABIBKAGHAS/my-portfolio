@@ -31,7 +31,7 @@ export default function Header() {
               <span className="link">About</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#resume-card">
               <span className="icon ion-android-list"></span>
               <span className="link">Resume</span>
@@ -48,7 +48,7 @@ export default function Header() {
               <span className="icon ion-at"></span>
               <span className="link">Contact</span>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </header>

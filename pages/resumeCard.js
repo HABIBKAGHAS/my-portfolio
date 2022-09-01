@@ -54,7 +54,7 @@ export default function ResumeCard() {
                   <div className="name">Art University</div>
                   <div className="company">New York</div>
                   <p>
-                    Bachelor's Degree in Computer Science ABC Technical
+                    Bachelors Degree in Computer Science ABC Technical
                     Institute, Jefferson, Missouri
                   </p>
                 </div>

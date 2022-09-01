@@ -16,7 +16,11 @@ import "../public/template/css/dark.css";
 // import "../public/template/css/owl.carousel.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 export default MyApp;
