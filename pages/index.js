@@ -12,7 +12,10 @@ import SideBar from "./sidebar";
 export default function Home() {
   return (
     <div>
-      <Script src="/template/js/jquery.min.js"></Script>
+      <Script
+        src="/template/js/jquery.min.js"
+        strategy="beforeInteractive"
+      ></Script>
       <Script src="/template/js/jquery.validate.js"></Script>
       <Script src="/template/js/jquery.magnific-popup.js"></Script>
       <Script src="/template/js/imagesloaded.pkgd.js"></Script>

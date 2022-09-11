@@ -5,7 +5,7 @@ export default function StartedCard() {
       <div className="profile">
         <div className="slide bg-[url('/back.jpeg')]"></div>
         <div className="image">
-          <Image src="/Habib.jpg" width={150} height={150} alt="Ryan Adlard" />
+          <Image src="/Habib.jpg" width={250} height={250} alt="Habib Kaghas" />
         </div>
 
         <div className="title">Habib Kaghas</div>

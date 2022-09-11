@@ -10,16 +10,24 @@ export default function ContactCard() {
               <div className="info-list">
                 <ul>
                   <li>
-                    <strong>Address . . . . .</strong> California, USA
+                    <p>
+                      <strong>Address . . . . .</strong> Iraq, Erbil
+                    </p>
                   </li>
                   <li>
-                    <strong>Email . . . . .</strong> adlard@example.com
+                    <p>
+                      <strong>Email . . . . .</strong> info@habibkaghas.info
+                    </p>
                   </li>
                   <li>
-                    <strong>Phone . . . . .</strong> +123 654 78900
+                    <p>
+                      <strong>Phone . . . . .</strong> +964 751 898 7405
+                    </p>
                   </li>
                   <li>
-                    <strong>Freelance . . . . .</strong> Available
+                    <p>
+                      <strong>Freelance . . . . .</strong> Available
+                    </p>
                   </li>
                 </ul>
               </div>
