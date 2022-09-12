@@ -680,9 +680,12 @@ input[type="submit"] {
 
 @media only screen and (max-width: 1240px) {
   .preloader {
-    background: #3b3b42;
     display: none;
   }
+}
+
+.preloader {
+  background: #3b3b42;
 }
 
 @media (max-width: 1240px) {
