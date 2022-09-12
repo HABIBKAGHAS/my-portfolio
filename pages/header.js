@@ -13,7 +13,7 @@ export default function Header() {
             />
           </a>
         </div>
-        <div className="title">Habib Kaghas</div>
+        <div className="title w-50 block">Habib Kaghas</div>
         <div className="subtitle subtitle-typed">
           <div className="typing-title">
             <p>Full Stack Developer</p>
@@ -37,12 +37,12 @@ export default function Header() {
               <span className="link">Resume</span>
             </a>
           </li>
-          {/* <li>
+          <li>
             <a href="#works-card">
-              <span className="icon ion-paintbrush"></span>
+              <span className="icon ion-laptop"></span>
               <span className="link">Works</span>
             </a>
-          </li> */}
+          </li>
           <li>
             <a href="#contacts-card">
               <span className="icon ion-at"></span>

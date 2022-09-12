@@ -682,6 +682,9 @@ input[type="submit"] {
   .preloader {
     display: none;
   }
+  .top-menu {
+    display: none;
+  }
 }
 
 .preloader {
