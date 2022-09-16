@@ -35,14 +35,14 @@ jobs:
         uses: appleboy/ssh-action@v0.1.5
         with:
           # ssh host
-          host: ${{REMOTE_SERVER}}
+          host: ${{ secrets.REMOTE_SERVER }}
           # ssh port
           # port: # optional, default is 22
           # ssh key passphrase
           #passphrase: # optional
           # ssh username
-          username: ${{REMOTE_USER}}
-          key: ${{SSH_KEY}}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.SSH_KEY }}
           script: |
             sudo su
             nvm use 16
