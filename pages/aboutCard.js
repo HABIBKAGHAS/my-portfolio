@@ -255,8 +255,7 @@ export default function AboutCard() {
                 <div className="text">
                   <div>
                     People who are crazy enough to think they can change the
-                    world are the ones who do..People who are crazy enough to
-                    think they can change the world are the ones who do..
+                    world are the ones who do..
                   </div>
                 </div>
                 <div className="user">
