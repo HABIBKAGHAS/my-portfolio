@@ -17,12 +17,30 @@ export default function Home() {
         strategy="beforeInteractive"
       ></Script>
       <Script src="/template/js/typed.js" strategy="beforeInteractive"></Script>
-      <Script src="/template/js/jquery.validate.js"></Script>
-      <Script src="/template/js/jquery.magnific-popup.js"></Script>
-      <Script src="/template/js/imagesloaded.pkgd.js"></Script>
-      <Script src="/template/js/isotope.pkgd.js"></Script>
-      <Script src="/template/js/jquery.slimscroll.js"></Script>
-      <Script src="/template/js/owl.carousel.js"></Script>
+      <Script
+        src="/template/js/jquery.validate.js"
+        strategy="beforeInteractive"
+      ></Script>
+      <Script
+        src="/template/js/jquery.magnific-popup.js"
+        strategy="beforeInteractive"
+      ></Script>
+      <Script
+        src="/template/js/imagesloaded.pkgd.js"
+        strategy="beforeInteractive"
+      ></Script>
+      <Script
+        src="/template/js/isotope.pkgd.js"
+        strategy="beforeInteractive"
+      ></Script>
+      <Script
+        src="/template/js/jquery.slimscroll.js"
+        strategy="beforeInteractive"
+      ></Script>
+      <Script
+        src="/template/js/owl.carousel.js"
+        strategy="beforeInteractive"
+      ></Script>
       <Script src="/template/js/scripts.js"></Script>
       <Script src="https://use.fontawesome.com/8da76d029b.js"></Script>
 
