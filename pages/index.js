@@ -16,7 +16,7 @@ export default function Home() {
         src="/template/js/jquery.min.js"
         strategy="beforeInteractive"
       ></Script>
-      <Script src="/template/js/typed.js"></Script>
+      <Script src="/template/js/typed.js" strategy="beforeInteractive"></Script>
       <Script src="/template/js/jquery.validate.js"></Script>
       <Script src="/template/js/jquery.magnific-popup.js"></Script>
       <Script src="/template/js/imagesloaded.pkgd.js"></Script>
