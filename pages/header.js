@@ -37,12 +37,12 @@ export default function Header() {
               <span className="link">Resume</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#works-card">
               <span className="icon ion-laptop"></span>
               <span className="link">Works</span>
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contacts-card">
               <span className="icon ion-at"></span>

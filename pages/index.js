@@ -16,16 +16,16 @@ export default function Home() {
         src="/template/js/jquery.min.js"
         strategy="beforeInteractive"
       ></Script>
+      <Script src="/template/js/typed.js"></Script>
       <Script src="/template/js/jquery.validate.js"></Script>
       <Script src="/template/js/jquery.magnific-popup.js"></Script>
       <Script src="/template/js/imagesloaded.pkgd.js"></Script>
       <Script src="/template/js/isotope.pkgd.js"></Script>
       <Script src="/template/js/jquery.slimscroll.js"></Script>
       <Script src="/template/js/owl.carousel.js"></Script>
-      <Script src="/template/js/typed.js"></Script>
+      <Script src="/template/js/scripts.js"></Script>
       <Script src="https://use.fontawesome.com/8da76d029b.js"></Script>
 
-      <Script src="/template/js/scripts.js"></Script>
       <Head>
         <title>Habib Kaghas - Portfolio</title>
         <meta
@@ -76,7 +76,7 @@ export default function Home() {
         <StartedCard />
         <AboutCard />
         <ResumeCard />
-        <WorksCard />
+        {/* <WorksCard /> */}
         <ContactCard />
       </div>
     </div>
