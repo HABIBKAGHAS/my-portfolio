@@ -94,7 +94,7 @@ export default function Home() {
         <StartedCard />
         <AboutCard />
         <ResumeCard />
-        {/* <WorksCard /> */}
+        <WorksCard />
         <ContactCard />
       </div>
     </div>

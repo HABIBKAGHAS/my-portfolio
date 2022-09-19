@@ -19,19 +19,31 @@ export default function StartedCard() {
         </div>
 
         <div className="social">
-          <a href="https://twitter.com/habib79243709">
+          <a
+            href="https://twitter.com/habib79243709"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="fa fa-twitter"></span>
           </a>
-          <a href="https://github.com/HABIBKAGHAS">
+          <a
+            href="https://github.com/HABIBKAGHAS"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="fa fa-github"></span>
           </a>
-          <a href="https://www.linkedin.com/in/habib-kaghas/">
+          <a
+            href="https://www.linkedin.com/in/habib-kaghas/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="fa fa-linkedin"></span>
           </a>
         </div>
 
         <div className="lnks">
-          <a href="/Habib Kaghas Resume.pdf" className="lnk">
+          <a href="/Habib Kaghas Resume.pdf" target="_blank" className="lnk">
             <span className="text">Download CV</span>
           </a>
           <a href="#" className="lnk discover">

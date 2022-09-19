@@ -1,4 +1,29 @@
+import { useState } from "react";
+
 export default function ContactCard() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // console.log("Sending");
+    let data = {
+      name,
+      email,
+      message,
+    };
+    fetch("/api/contactMe", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    }).then((x) => {
+      $("#cform").fadeOut();
+      $(".alert-success").delay(1000).fadeIn();
+    });
+  };
   return (
     <div className="card-inner contacts" id="contacts-card">
       <div className="card-wrap">
@@ -50,6 +75,9 @@ export default function ContactCard() {
                           type="text"
                           name="name"
                           placeholder="Full Name"
+                          onChange={(e) => {
+                            setName(e.target.value);
+                          }}
                         />
                       </div>
                     </div>
@@ -59,6 +87,9 @@ export default function ContactCard() {
                           type="text"
                           name="email"
                           placeholder="Email Address"
+                          onChange={(e) => {
+                            setEmail(e.target.value);
+                          }}
                         />
                       </div>
                     </div>
@@ -67,16 +98,15 @@ export default function ContactCard() {
                         <textarea
                           name="message"
                           placeholder="Your Message"
+                          onChange={(e) => {
+                            setMessage(e.target.value);
+                          }}
                         ></textarea>
                       </div>
                     </div>
                   </div>
                   <div className="align-left">
-                    <a
-                      href="#"
-                      className="button"
-                      //   onclick="$('#cform').submit(); return false;"
-                    >
+                    <a href="#" className="button" onClick={handleSubmit}>
                       <span className="text">Send Message</span>
                       <span className="arrow"></span>
                     </a>
