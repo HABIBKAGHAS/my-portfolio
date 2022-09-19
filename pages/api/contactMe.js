@@ -1,4 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+require("dotenv").config();
 export default function mailer(req, res) {
   console.log("habib", req.body);
   let nodemailer = require("nodemailer");
@@ -6,8 +7,8 @@ export default function mailer(req, res) {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: "noreplyhabib7@gmail.com",
-      pass: "jipktdoqvnjvmkur",
+      user: process.env.email,
+      pass: process.env.password,
     },
     secure: true,
   });

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "aws-amplify": "^4.3.35",
+    "dotenv": "^16.0.2",
     "jquery": "^3.6.1",
     "next": "12.2.5",
     "nodemailer": "^6.7.8",
