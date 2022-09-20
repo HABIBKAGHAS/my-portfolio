@@ -22,7 +22,9 @@ export default function mailer(req, res) {
   };
 
   transporter.sendMail(mailData, function (err, info) {
-    if (err) res.send(err);
+    console.log({ err });
+    console.log({ info });
+    if (err) res.status(500).send(err);
     else res.send();
   });
 }
