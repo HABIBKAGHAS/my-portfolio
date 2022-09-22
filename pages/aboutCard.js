@@ -2,7 +2,20 @@ import { useState, useEffect } from "react";
 import API from "../utils/awsLambda.ts";
 
 export default function AboutCard() {
-  const [data, setData] = useState({});
+  const [data, setData] = useState({
+    description: `Experienced Project Lead Developer with a demonstrated history
+                  of working in the non-profit organization management industry.
+                  Skilled in English as a Second Language (ESL), Computer
+                  Science, NodeJS, ReactJS, Mobile Applications, and Java. Have
+                  great knowledge in Amazon Web Services (AWS), interestend in
+                  Web 3.0, BlockChain, Non-Fungible Tokens (NFTs), and crypto.
+                  Strong information technology professional with a Bachelor\`s
+                  degree focused in Artificial Intelligence from Information
+                  Technology University (ITI).`,
+    age: 27,
+    Residence: "Erbil, Iraq",
+    Address: "40th street",
+  });
   const apiName = "about";
   const path = "/about";
   const myInit = {

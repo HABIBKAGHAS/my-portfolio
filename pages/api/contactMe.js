@@ -7,8 +7,8 @@ export default function mailer(req, res) {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: process.env.REACT_APP_EMAIL,
-      pass: process.env.REACT_APP_PASS,
+      user: process.env.APP_EMAIL,
+      pass: process.env.APP_PASS,
     },
     secure: true,
   });
