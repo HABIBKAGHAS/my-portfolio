@@ -53,7 +53,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Erbil, Best Developer in Erbil, Kurdistan Developer,  Web Developer, Full stack, Web3.0, DevOps, AWS, NodeJS, ReactJS."
+          content="Habib Kaghas, Erbil, Best Developer in Erbil, Kurdistan Developer,  Web Developer, Full stack, Web3.0, DevOps, AWS, NodeJS, ReactJS."
         />
         <meta
           name="description"
