@@ -18,7 +18,7 @@ export default function mailer(req, res) {
     to: "habibkaghas@gmail.com",
     subject: `Message From ${req.body.name}`,
     text: req.body.message,
-    html: `<div>${req.body.message}</div>`,
+    html: `<div>the guy email is: ${req.body.email} the message is ${req.body.message}</div>`,
   };
 
   transporter.sendMail(mailData, function (err, info) {
